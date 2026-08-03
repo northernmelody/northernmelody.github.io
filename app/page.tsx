@@ -25,6 +25,14 @@ function formatDate(value?: string) {
   }).format(new Date(value));
 }
 
+function NMMark({ footer = false }: { footer?: boolean }) {
+  return (
+    <span className={`nm-mark${footer ? " nm-mark-footer" : ""}`} aria-hidden="true">
+      <span>N</span><span>M</span>
+    </span>
+  );
+}
+
 export default function Home() {
   const [activeTag, setActiveTag] = useState("全部");
   const tags = useMemo(
@@ -40,8 +48,8 @@ export default function Home() {
     <main>
       <nav className="nav shell" aria-label="主导航">
         <a className="brand" href="#top" aria-label="返回首页">
-          <span className="brand-mark">A</span>
-          <span>Project Atlas</span>
+          <NMMark />
+          <span className="brand-title">NorthernMelody <em>Project</em></span>
         </a>
         <div className="nav-links">
           <a href="#projects">项目</a>
@@ -65,7 +73,7 @@ export default function Home() {
           <a className="primary-button" href="#projects">浏览项目 <span>↓</span></a>
         </div>
         <div className="hero-window" aria-hidden="true">
-          <div className="window-bar"><i /><i /><i /><span>portfolio.vercel.app</span></div>
+          <div className="window-bar"><i /><i /><i /><span>northernmelody.github.io</span></div>
           <div className="window-body">
             <div className="signal-grid" />
             <strong>{String(projects.length).padStart(2, "0")}</strong>
@@ -132,7 +140,13 @@ export default function Home() {
 
       <footer>
         <div className="shell footer-inner">
-          <div><span className="brand-mark">A</span><strong>Project Atlas</strong></div>
+          <div className="footer-brand">
+            <NMMark footer />
+            <div className="footer-title">
+              <strong>NorthernMelody Portfolio</strong>
+              <span>NorthernMelody 作品集</span>
+            </div>
+          </div>
           <p>由 GitHub Pages 托管 · 项目状态自动同步</p>
           <a href="#top">回到顶部 ↑</a>
         </div>

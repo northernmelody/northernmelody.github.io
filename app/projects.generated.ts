@@ -58,7 +58,7 @@ const projects = [
   {
     "name": "EasonDaily",
     "vercelProject": "easondaily",
-    "description": "移动端优先的非官方每日内容项目，按香港日期呈现一张照片、一句歌词短摘与双语分享体验。",
+    "description": "如果你也喜欢陈奕迅",
     "url": "https://easondaily.vercel.app/",
     "repo": "https://github.com/northernmelody/easondaily",
     "tags": [
