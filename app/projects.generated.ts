@@ -1,0 +1,73 @@
+// 此文件由 scripts/render-project-data.mjs 生成，请编辑 data/projects.json。
+const projects = [
+  {
+    "name": "叙宙 · Knowledge Galaxy",
+    "vercelProject": "knowledge-galaxy-pi",
+    "description": "双语 AI 知识探索产品：把真实概念写成故事，让用户从直觉、隐喻与应用中理解知识。",
+    "url": "https://knowledge-galaxy-pi.vercel.app/en",
+    "repo": "https://github.com/northernmelody/Knowledge-Galaxy",
+    "tags": [
+      "Next.js",
+      "AI",
+      "Bilingual"
+    ],
+    "featured": true,
+    "updatedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "name": "古韵诗阁 · PoemTeach",
+    "vercelProject": "poem-teach",
+    "description": "面向诗词爱好者、学生与教师的学习平台，提供精准检索、通俗解读、故事演绎与轻量 AI 创作。",
+    "url": "https://poem-teach.vercel.app/",
+    "repo": "https://github.com/northernmelody/PoemTeach",
+    "tags": [
+      "Next.js",
+      "AI",
+      "Education"
+    ],
+    "featured": true,
+    "updatedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "name": "Visual Prompt Compiler",
+    "vercelProject": "visual-prompt-compiler",
+    "description": "把参考图像解析为 Visual DNA，并编译成适配 Midjourney、FLUX、SDXL 与摄影创作的结构化指令。",
+    "url": "https://visual-prompt-compiler.vercel.app/",
+    "repo": "https://github.com/northernmelody/visual-prompt-compiler",
+    "tags": [
+      "AI",
+      "Vision",
+      "Tool"
+    ],
+    "featured": true,
+    "updatedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "name": "AI Speaking Coach",
+    "vercelProject": "ai-speaking-coach",
+    "description": "为成人英语学习者打造的移动优先口语伙伴，涵盖诊断、场景对话、语音训练、纠错与进度追踪。",
+    "url": "https://ai-speaking-coach-theta.vercel.app/",
+    "repo": "https://github.com/northernmelody/ai-speaking-coach",
+    "tags": [
+      "Next.js",
+      "AI",
+      "Speech"
+    ],
+    "updatedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "name": "EasonDaily",
+    "vercelProject": "easondaily",
+    "description": "移动端优先的非官方每日内容项目，按香港日期呈现一张照片、一句歌词短摘与双语分享体验。",
+    "url": "https://easondaily.vercel.app/",
+    "repo": "https://github.com/northernmelody/easondaily",
+    "tags": [
+      "Next.js",
+      "Daily",
+      "Culture"
+    ],
+    "updatedAt": "2026-08-03T00:00:00.000Z"
+  }
+];
+
+export default projects;
