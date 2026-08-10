@@ -8,11 +8,10 @@ const projects = [
     "repo": "https://github.com/northernmelody/Knowledge-Galaxy",
     "cover": "/projects/knowledge-galaxy.png",
     "tags": [
-      "Next.js",
       "AI",
+      "Knowledge",
       "Bilingual"
     ],
-    "featured": true,
     "updatedAt": "2026-08-03T00:00:00.000Z"
   },
   {
@@ -23,11 +22,10 @@ const projects = [
     "repo": "https://github.com/northernmelody/PoemTeach",
     "cover": "/projects/poemteach.png",
     "tags": [
-      "Next.js",
       "AI",
-      "Education"
+      "Education",
+      "Culture"
     ],
-    "featured": true,
     "updatedAt": "2026-08-03T00:00:00.000Z"
   },
   {
@@ -39,22 +37,21 @@ const projects = [
     "cover": "/projects/visual-prompt-compiler.png",
     "tags": [
       "AI",
-      "Vision",
-      "Tool"
+      "Creative Tool",
+      "Vision"
     ],
-    "featured": true,
     "updatedAt": "2026-08-03T00:00:00.000Z"
   },
   {
     "name": "AI Speaking Coach",
     "vercelProject": "ai-speaking-coach",
-    "description": "为成人英语学习者打造的移动优先口语伙伴，涵盖诊断、场景对话、语音训练、纠错与进度追踪。",
+    "description": "为成人英语学习者打造的 AI 口语伙伴，覆盖场景对话、语音训练、纠错与进度反馈。",
     "url": "https://ai-speaking-coach-theta.vercel.app/",
     "repo": "https://github.com/northernmelody/ai-speaking-coach",
     "cover": "/projects/ai-speaking-coach.png",
     "tags": [
-      "Next.js",
       "AI",
+      "Learning",
       "Speech"
     ],
     "updatedAt": "2026-08-03T00:00:00.000Z"
@@ -62,14 +59,14 @@ const projects = [
   {
     "name": "EasonDaily",
     "vercelProject": "easondaily",
-    "description": "如果你也喜欢陈奕迅",
+    "description": "如果你也喜欢陈奕迅。",
     "url": "https://easondaily.vercel.app/",
     "repo": "https://github.com/northernmelody/easondaily",
     "cover": "/projects/easondaily.png",
     "tags": [
-      "Next.js",
-      "Daily",
-      "Culture"
+      "Music",
+      "Culture",
+      "Daily"
     ],
     "updatedAt": "2026-08-03T00:00:00.000Z"
   },
@@ -81,11 +78,10 @@ const projects = [
     "repo": "https://github.com/northernmelody/travel-personality-trae",
     "cover": "/projects/travel-personality.png",
     "tags": [
-      "Next.js",
-      "Quiz",
-      "Travel"
+      "Travel",
+      "Experiment",
+      "Quiz"
     ],
-    "featured": true,
     "updatedAt": "2026-08-10T00:00:00.000Z"
   }
 ];
