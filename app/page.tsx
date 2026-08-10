@@ -9,6 +9,7 @@ type Project = {
   description: string;
   url: string;
   repo?: string;
+  cover: string;
   tags: string[];
   featured?: boolean;
   updatedAt?: string;
@@ -111,8 +112,8 @@ export default function Home() {
             {visibleProjects.map((project, index) => (
               <article className="project-card" key={project.name}>
                 <div className={`card-visual visual-${index % 3}`}>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <div className="visual-shape" />
+                  <img src={project.cover} alt={`${project.name} 封面`} loading="lazy" />
+                  <span className="card-index">{String(index + 1).padStart(2, "0")}</span>
                   {project.featured && <b>FEATURED</b>}
                 </div>
                 <div className="card-content">
