@@ -88,7 +88,6 @@ export default function Home() {
                   <p>{project.description}</p>
                   <div className="card-actions">
                     <a href={project.url} target="_blank" rel="noreferrer">Live Product <span>↗</span></a>
-                    {project.repo && <a className="repo-link" href={project.repo} target="_blank" rel="noreferrer">GitHub ↗</a>}
                   </div>
                 </div>
               </article>
