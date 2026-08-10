@@ -31,7 +31,6 @@ export default function Home() {
         <div className="nav-links">
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
-          <a href="https://github.com/northernmelody" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </nav>
 
@@ -124,7 +123,6 @@ export default function Home() {
             <div className="footer-title"><strong>NorthernMelody Project</strong><span>NorthernMelody 作品集</span></div>
           </div>
           <p>Built with curiosity.</p>
-          <a href="https://github.com/northernmelody" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </footer>
     </main>
