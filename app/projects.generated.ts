@@ -6,6 +6,7 @@ const projects = [
     "description": "双语 AI 知识探索产品：把真实概念写成故事，让用户从直觉、隐喻与应用中理解知识。",
     "url": "https://knowledge-galaxy-pi.vercel.app/en",
     "repo": "https://github.com/northernmelody/Knowledge-Galaxy",
+    "cover": "/projects/knowledge-galaxy.png",
     "tags": [
       "Next.js",
       "AI",
@@ -20,6 +21,7 @@ const projects = [
     "description": "面向诗词爱好者、学生与教师的学习平台，提供精准检索、通俗解读、故事演绎与轻量 AI 创作。",
     "url": "https://poem-teach.vercel.app/",
     "repo": "https://github.com/northernmelody/PoemTeach",
+    "cover": "/projects/poemteach.png",
     "tags": [
       "Next.js",
       "AI",
@@ -34,6 +36,7 @@ const projects = [
     "description": "把参考图像解析为 Visual DNA，并编译成适配 Midjourney、FLUX、SDXL 与摄影创作的结构化指令。",
     "url": "https://visual-prompt-compiler.vercel.app/",
     "repo": "https://github.com/northernmelody/visual-prompt-compiler",
+    "cover": "/projects/visual-prompt-compiler.png",
     "tags": [
       "AI",
       "Vision",
@@ -48,6 +51,7 @@ const projects = [
     "description": "为成人英语学习者打造的移动优先口语伙伴，涵盖诊断、场景对话、语音训练、纠错与进度追踪。",
     "url": "https://ai-speaking-coach-theta.vercel.app/",
     "repo": "https://github.com/northernmelody/ai-speaking-coach",
+    "cover": "/projects/ai-speaking-coach.png",
     "tags": [
       "Next.js",
       "AI",
@@ -61,12 +65,28 @@ const projects = [
     "description": "如果你也喜欢陈奕迅",
     "url": "https://easondaily.vercel.app/",
     "repo": "https://github.com/northernmelody/easondaily",
+    "cover": "/projects/easondaily.png",
     "tags": [
       "Next.js",
       "Daily",
       "Culture"
     ],
     "updatedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "name": "旅行人格",
+    "vercelProject": "travel-personality-trae",
+    "description": "用一场轻松有趣的测试，看见你的旅行方式、动机与同伴匹配。",
+    "url": "https://travel-personality-trae.vercel.app/",
+    "repo": "https://github.com/northernmelody/travel-personality-trae",
+    "cover": "/projects/travel-personality.png",
+    "tags": [
+      "Next.js",
+      "Quiz",
+      "Travel"
+    ],
+    "featured": true,
+    "updatedAt": "2026-08-10T00:00:00.000Z"
   }
 ];
 
