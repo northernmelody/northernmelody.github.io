@@ -83,6 +83,20 @@ const projects = [
       "Quiz"
     ],
     "updatedAt": "2026-08-10T00:00:00.000Z"
+  },
+  {
+    "name": "数形实验室 · Math Visual Lab",
+    "vercelProject": "mathobserver",
+    "description": "用可视化实验探索函数、几何与数学直觉，让抽象概念变得可观察、可操作。",
+    "url": "https://mathobserver.vercel.app/",
+    "repo": "https://github.com/northernmelody/mathobserver",
+    "cover": "/projects/mathobserver.png",
+    "tags": [
+      "Math",
+      "Education",
+      "AI"
+    ],
+    "updatedAt": "2026-08-11T00:00:00.000Z"
   }
 ];
 
