@@ -10,7 +10,17 @@ type Project = {
 };
 
 const projects = projectData as Project[];
-const visibleProjects = projects.filter((project) => project.name !== "EasonDaily");
+const projectOrder = [
+  "https://ai-speaking-coach-theta.vercel.app/",
+  "https://visual-prompt-compiler.vercel.app/",
+  "https://mathobserver.vercel.app/",
+  "https://poem-teach.vercel.app/",
+  "https://knowledge-galaxy-pi.vercel.app/en",
+  "https://travel-personality-trae.vercel.app/",
+  "https://easondaily.vercel.app/",
+];
+const visibleProjects = projectOrder.flatMap((url) => projects.filter((project) => project.url === url));
+const projectCountLabel = String(visibleProjects.length).padStart(2, "0");
 const wallIndexes = [0, 1, 2, 5];
 
 function NMMark({ footer = false }: { footer?: boolean }) {
@@ -49,9 +59,9 @@ export default function Home() {
         </div>
 
         <div className="project-wall" aria-label="精选项目预览">
-          <div className="wall-caption"><strong>06</strong><span>LIVE PROJECTS</span></div>
+          <div className="wall-caption"><strong>{projectCountLabel}</strong><span>LIVE PROJECTS</span></div>
           {wallIndexes.map((projectIndex, index) => {
-            const project = projects[projectIndex];
+            const project = visibleProjects[projectIndex];
             return (
               <a
                 className={`wall-card wall-card-${index}`}
@@ -109,7 +119,7 @@ export default function Home() {
             <div className="about-route">Explore <span>→</span> Build <span>→</span> Ship <span>→</span> Learn</div>
           </div>
           <div className="stats" aria-label="作品集统计">
-            <div><strong>06</strong><span>LIVE PRODUCTS</span></div>
+            <div><strong>{projectCountLabel}</strong><span>LIVE PRODUCTS</span></div>
             <div><strong>2026</strong><span>STARTED</span></div>
             <div><strong>∞</strong><span>IDEAS TO BUILD</span></div>
           </div>
