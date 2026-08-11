@@ -10,6 +10,7 @@ type Project = {
 };
 
 const projects = projectData as Project[];
+const visibleProjects = projects.filter((project) => project.name !== "EasonDaily");
 const wallIndexes = [0, 1, 2, 5];
 
 function NMMark({ footer = false }: { footer?: boolean }) {
@@ -76,7 +77,7 @@ export default function Home() {
           </div>
 
           <div className="project-grid">
-            {projects.map((project, index) => (
+            {visibleProjects.map((project, index) => (
               <article className="project-card" key={project.name}>
                 <a className="card-visual" href={project.url} target="_blank" rel="noreferrer">
                   <img src={project.cover} alt={`${project.name} 项目封面`} loading="lazy" />
